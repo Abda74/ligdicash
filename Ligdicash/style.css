@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+h1{
+
+}
+
+.btn{
+    width: 70vw;
+}
+
+.btn:nth-child(2){
+    background: green;
+}
+
+.btn:nth-child(3){
+    background: #f2f2f8;
+    border: 1px solid #0f7904;
+    color: green;
+}
+
+.container a{
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    margin: 0.1rem;
+}
