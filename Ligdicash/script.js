@@ -9,15 +9,4 @@ if ('serviceWorker' in navigator) {
     });
 }
 
-document.querySelectorAll('a').forEach(link => {
-    link.addEventListener('click', function(event) {
-        event.preventDefault(); // Empêcher le comportement par défaut du lien
-
-        const targetUrl = this.getAttribute('href');
-        // Mettre à jour l'URL sans recharger la page
-        window.history.pushState(null, null, targetUrl);
-
-    });
-});
-
 
